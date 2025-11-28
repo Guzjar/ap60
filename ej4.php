@@ -22,5 +22,10 @@ class cuentaBancaria {
         $this->titula=$titula;
         $this->saldo=$saldo;
     }
-    
+    public function getTitulo(){
+        return $this->titulo;
+    }
+    public function getsaldo(){
+        return $this->saldo;
+    }
 }
