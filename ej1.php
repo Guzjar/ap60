@@ -3,9 +3,10 @@ class coche {
     public $marca;
     public $modelo;
 }
-function coche1(){
+function mostrarInfo(){
     $coche1= new coche();
-    $coche1->marca="twingo";
-    echo "$coche1->marca";
+    $marca1=$coche1->marca="twingo";
+    $modelo1=$coche1->modelo="pique";
+    echo "$marca1,$modelo1";
 }
-echo coche1();
+echo mostrarInfo();
